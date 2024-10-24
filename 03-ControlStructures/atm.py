@@ -43,7 +43,8 @@ while True:
     elif choice == '6':
         change = input("Enter your new password: ")
         if len(change) == 4 and change.isdigit():
-            print(f"Successfully сhanged your password!")
+            pin = change
+            print(f"Successfully сhanged your password! now it is {change}")
         else:
             print(f"Your password doesnt fit some criteria")
     else:

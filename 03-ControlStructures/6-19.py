@@ -1,0 +1,8 @@
+print(f"SURVEY")
+comp_sci = input("Are you interested in computer science? (y/n): ")
+comp_games = input("Do you like playing computer games? (y/n): ")
+insta = input("Do you have an Instagram account? (y/n): ")
+print(f"SURVEY RESULTS")
+print(f"Interested in computer science: {'Yes' if comp_sci == 'y' else 'No'}")
+print(f"Playing computer games: {'Yes' if comp_games == 'y' else 'No'}")
+print(f"Has an Instagram account: {'Yes' if insta == 'y' else 'No'}")
