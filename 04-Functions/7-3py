@@ -1,0 +1,3 @@
+import seven_three
+
+text = seven_three.count("Enter 1", "Enter 2")
