@@ -1,4 +1,3 @@
 import seven_four
 
-
-range = seven_four.range("Enter THE number: ", "first number: ", "second number: ")
+text = seven_four.count("Enter 1", "Enter 2")
