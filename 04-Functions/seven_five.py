@@ -1,8 +1,9 @@
-
-def range(n, m):
-    number = int(input("Enter THE number: "))
-    n = int(input("first digits: "))
-    m = int(input("second digits: "))
-    print(bool(n < number and m > number))
-    return range
+def range(number, x, y):
+    if number > x and number < y:
+        return True
     
+def main():
+    print(range(7, 2, 15))
+
+if __name__ == "__main__":
+    main()
