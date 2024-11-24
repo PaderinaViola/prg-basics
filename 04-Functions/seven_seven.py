@@ -1,10 +1,8 @@
 def f(binary_number):
-    binary_number = str(binary_number)
     for char in binary_number:
-        if char == "0" or char == "1":
-            return True
-        else:
+        if char != "1" and char != "0":
             return False
+    return True
 
 def main():
     binary_number = (input("Enter "))
