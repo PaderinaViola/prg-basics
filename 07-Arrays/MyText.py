@@ -8,5 +8,12 @@ def array(text):
     words.sort(key=len, reverse=True)
     return words
 
-print(numb_words(text))
-print(array(", ".join(text)))
+def alphabet(text):
+    words = text.split()
+    words.sort()
+    return words
+
+print("Text: ", "".join(map(str, text)))
+print("Number of words:", numb_words(text))
+print("Words from the longest:", ", ".join(map(str, array(text))))
+print("Words ordered alphabetically:", ", ".join(map(str, alphabet(text))))
