@@ -7,4 +7,3 @@ with open(my_file, 'r') as file:
     while repeat == input("Press input:"):
         print(content)
 
-;lkjh
